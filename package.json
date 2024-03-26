@@ -1,0 +1,29 @@
+{
+  "name": "promises-ts",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "0": "tsx ./src/0_problem.ts",
+    "1": "tsx ./src/1_each_serial_collection.ts",
+    "2": "tsx ./src/2_map_parallel_collection.ts",
+    "3": "tsx ./src/3_all_parallel_array.ts",
+    "4": "tsx ./src/4_props_parallel_obj.ts",
+    "5": "tsx ./src/5_race_some.ts",
+    "6": "tsx watch ./src/6-population-challenge--start.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ajar/marker": "^1.3.3",
+    "bluebird": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.42",
+    "@types/node": "^20.11.30",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  }
+}
